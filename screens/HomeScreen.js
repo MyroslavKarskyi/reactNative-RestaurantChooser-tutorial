@@ -45,7 +45,7 @@ export class HomeScreen extends React.Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text style={styles.title}>Before you start..</Text>
+                <Text style={styles.title}>Before you start...</Text>
                 <View style={styles.container}>
                     <View>
                         <Button
@@ -54,7 +54,9 @@ export class HomeScreen extends React.Component {
                         />
                     </View>
                 </View>
-                {this.state.advise !== null ? this.adView(this.state.advise) : null}
+                <View style={styles.containerText}>
+                    {this.state.advise !== null ? this.adView(this.state.advise) : null}
+                </View>
 
             </View>
         );
@@ -68,6 +70,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     container: {
+        flex: 1,
         paddingTop: 35,
         backgroundColor: '#fff',
         marginTop: 10,
@@ -78,6 +81,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     containerText: {
+        flex: 1,
         paddingTop: 15,
         backgroundColor: '#fff',
         marginTop: 10,
@@ -86,6 +90,7 @@ const styles = StyleSheet.create({
         marginRight: 10
     },
     moreButton: {
+        flex: 1,
         width: 50,
         marginBottom: 10
     }

@@ -10,6 +10,8 @@
   "dependencies": {
     "@expo/vector-icons": "^10.0.5",
     "expo": "^35.0.0",
+    "native-base": "^2.13.8",
+    "prop-types": "latest",
     "react": "16.8.3",
     "react-dom": "16.8.3",
     "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
@@ -20,7 +22,7 @@
     "react-navigation": "^4.0.9",
     "react-navigation-material-bottom-tabs": "^2.1.2",
     "react-navigation-tabs": "^2.5.5",
-    "prop-types": "latest"
+    "expo-constants": "latest"
   },
   "devDependencies": {
     "babel-preset-expo": "^7.0.0"
