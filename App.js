@@ -47,9 +47,9 @@ const TabNavigator = createMaterialBottomTabNavigator(
                     <Image source={require("./images/icon-decision.png")}
                            style={{width: 32, height: 32, tintColor: tintColor}}/>
                 ),
-                activeColor: '#615af6',
-                inactiveColor: '#46f6d7',
-                barStyle: {backgroundColor: '#67baf6'},
+                activeColor: '#423df6',
+                inactiveColor: '#525dd6',
+                barStyle: {backgroundColor: '#7171f6'},
             }
         },
         Restaurants: {
