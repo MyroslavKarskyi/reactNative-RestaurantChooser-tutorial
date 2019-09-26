@@ -5,7 +5,7 @@ export class RestaurantsScreen extends React.Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text>Cart Screen</Text>
+                <Text>Restaurants Screen</Text>
             </View>
         );
     }

@@ -5,7 +5,7 @@ export class DecisionScreen extends React.Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text>Image Screen</Text>
+                <Text>Decision Screen</Text>
             </View>
         );
     }
