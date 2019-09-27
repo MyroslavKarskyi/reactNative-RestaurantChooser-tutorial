@@ -13,7 +13,7 @@
     "orientation": "portrait",
     "icon": "./assets/restaurant-icon.png",
     "splash": {
-      "image": "./assets/triangle-and-circle.png",
+      "image": "./assets/icon-restaurant-splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
