@@ -15,7 +15,7 @@ console.log("yo Your application is running on", Platform.OS.toLowerCase());//te
 
 //NAVIGATOR
 const TabNavigator = createMaterialBottomTabNavigator(
-    { //routes
+    { //routes for navigator
         Home: {
             screen: HomeScreen,
             navigationOptions: {

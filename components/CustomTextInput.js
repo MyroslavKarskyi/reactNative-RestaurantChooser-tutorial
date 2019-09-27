@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
 
     textInput: {
         height: 40, marginLeft: 10, width: "96%", marginBottom: 20,
-        ...Platform.select({
+        ...Platform.select({ //style changes slightely depending on the OS
             ios: {
                 marginTop: 4, paddingLeft: 10, borderRadius: 8,
                 borderColor: "#c0c0c0", borderWidth: 2
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
 
 });
 
-CustomTextInput.propTypes = {
+CustomTextInput.propTypes = { //helps to prevent or track errors
     label: PropTypes.string.isRequired,
     labelStyle: PropTypes.object,
     maxLength: PropTypes.number,
